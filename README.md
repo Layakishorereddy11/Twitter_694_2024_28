@@ -43,6 +43,12 @@ Chosen for its ability to handle large volumes of data with low latency. It is u
 
 ---
 
+## Architecture
+
+<img width="352" alt="image" src="https://github.com/user-attachments/assets/db9195fe-f51e-474d-a7da-fb3f087b2864" />
+
+---
+
 ## Preprocessing of Data
 The dataset contains irrelevant and inconsistent data that needs cleaning. For instance:
 - Missing original tweets for retweets were addressed by creating dummy entries.
@@ -102,19 +108,5 @@ Caching improves data retrieval performance by approximately 100x, significantly
 ## Conclusion
 The project demonstrates the impact of caching and efficient data modeling. A robust schema and mapping strategy reduce memory usage and improve performance. Caching enhances data retrieval speeds, highlighting its importance in large-scale applications.
 
----
 
-## Team Contributions
-- **LayaKishore Reddy Desireddy (ld786)**: Non-Relational Datastore.
-- **Bhavana Vemula (bv234)**: Search Application.
-- **Vikram Sriram Yasaswi Sagaram (vs865)**: Caching.
-- **Jayant Chaudhari (jc3303)**: Relational Datastore, Caching.
 
----
-
-## References
-1. Evaluating the comprehensiveness of Twitter Search API results
-2. Twitter Discussion Application Programming Interface
-3. An Exploratory Study of Twitter Messages about Software Applications
-4. Social Media Research
-5. Free and Low-Cost Twitter Research Software Tools for Social Science
